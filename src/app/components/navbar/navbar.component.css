@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #FF7F50;
+  }
+  .navbar-nav .nav-link {
+    color: white; /* Black font color */
+  }
+  .navbar-brand{
+    font-size: 20px;
+    font-weight: 800;
+    color:white
+  }
+  .logout{
+    font-size: 17px;
+    font-weight: 800;
+  }

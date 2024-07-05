@@ -1,0 +1,43 @@
+
+
+
+  <div class="container-fluid login-container">
+    <div class="row align-items-center min-vh-100">
+      <div class="col-lg-6 text-center mb-4 mb-lg-0">
+        <img src="assets/bromag_india_FINAL_BGLESS-01 1.png" class="img-fluid logo mt-5" alt="Bromag India Pvt Ltd Logo">
+       
+      </div>
+
+      
+      <div class="col-lg-6">
+        <div class="card cardoflogin">
+
+          <div class="card-body">
+            <h3 class="text-center header">Welcome Back</h3>
+            <p class="text-center paraforlogin">* Please log in to your account *</p>
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+              <div class="form-group">
+                <label class="mt-3 email" for="phone"> <span class="star">*</span> Phone number</label>
+                <input type="text" class="form-control  small-input" formControlName="phone" id="phone" placeholder="Enter your Phone Number...">
+              </div>
+              <div class="form-group">
+                <label class="mt-3 email" for="otp"> <span class="star">*</span> Enter OTP</label>
+                <input type="text" class="form-control  small-input" formControlName="otp" id="otp" placeholder="Enter your OTP...">
+                <a href="#" class="resend-otp text-center ">Resend OTP</a>
+
+              </div>
+
+              <div class="button-wrapper">
+                <button type="submit" class="btn btn-warning mt-3">Login</button>
+              </div>
+              <div class="d-flex flex-column align-items-center mt-2">
+                <a href="#" class="have-account">Did you have any account?</a>
+                <a href="#" routerLink="/register"  class="sign-up mt-1">Sign Up Now</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

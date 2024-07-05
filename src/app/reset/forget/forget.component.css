@@ -1,0 +1,26 @@
+.container{
+    margin-top: 140px;
+}
+.form-control {
+    border-radius: 10px; 
+  }
+
+  .btns{
+    background-color:#FF7F50 !important ;
+    color: white !important;
+    width:240px;
+    border-radius: 60px;
+    /* margin-left: 100px; */
+  }
+  .head{
+    font-size: 40px;
+    font-weight: 800;
+    color: #FF7F50;
+  }
+  .btnss{
+    background-color:black !important ;
+    color: white !important;
+    width:240px;
+    border-radius: 60px;
+    /* margin-left: 100px; */
+  }

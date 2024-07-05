@@ -1,0 +1,20 @@
+<div class="container">
+    <h1>User Data</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of userData">
+          <td>{{ user.username }}</td>
+          <td>{{ user.email }}</td>
+          <td><img [src]="user.profileImage" alt="User Image" width="50" height="50"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

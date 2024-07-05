@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light " *ngIf="shownavbar">
+    <div class="container">
+      <a class="navbar-brand " href="#">HUNGRY HUB   <i class="fas fa-utensils"></i> </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <!-- Left-aligned content -->
+          
+        </ul>
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item ml-5">
+                <span class="navbar-text text-white logout">
+                Hi!..  {{usernamer}}
+                </span> 
+              </li>
+
+          <!-- Right-aligned content -->
+          <li class="nav-item ml-3">
+            <a class="nav-link logout " href="#" (click)="logout()">Logout <i class="fas fa-sign-out-alt"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+  
